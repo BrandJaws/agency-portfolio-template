@@ -89,9 +89,13 @@
     .home-section .owl-item {
         padding: 0 30px;
     }
+    .home-section .btn-tri-outline {
+        margin-right: 0 !important;
+    }
 }
-@media (max-width:332px) {
+@media (max-width:384px) {
     .home-section .btn-tri-outline {
         margin-bottom: 10px;
+        // margin-right: 0 !important;
     }
 }
