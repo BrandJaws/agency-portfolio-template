@@ -1,0 +1,70 @@
+/*
+================================
+     Theme Fonts Family
+================================
+ */
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700";
+
+/*
+================================
+    Theme Color Variable
+================================
+ */
+
+$primary-color: #ed164f;
+$secondary-color: #000;
+
+/*
+================================
+    Theme Buttons Mixins
+================================
+ */
+
+@mixin button-style {
+  border-radius: 30px;
+  display: inline-block;
+  padding: 8px 32px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+@mixin button-hover-style {
+  background: $primary-color;
+  color: #FFF;
+  border: 2px solid $primary-color;
+}
+
+/*
+================================
+    Progress Bar Animation Mixins
+================================
+ */
+
+@mixin animation-bar($name) {
+  animation: $name 2s linear;
+}
+
+/*
+================================
+    Theme Box Mixins
+================================
+ */
+
+@mixin box-style {
+  box-shadow: 0 0 1px 1px #DDD;
+  background: #FFF;
+  border-radius: 10px;
+  transition: .4s ease-in-out;  
+}
+
+@mixin box-hover-style {
+  box-shadow: 0px 0px 15px 2px #DDD;
+}
+
+
+/*
+================================
+    Theme Fonts Variable
+================================
+ */
+$quick-sand: 'Quicksand', sans-serif;

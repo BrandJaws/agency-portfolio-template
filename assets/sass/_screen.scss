@@ -1,0 +1,97 @@
+@import "variables";
+
+/*
+==========================
+    Media Queries
+==========================
+*/
+
+@media (max-width: 991px){
+    #about img {
+        margin-bottom: 30px;
+    }
+    #about hr {
+        display: none;
+    }
+    #portfolio .container-fluid {
+        padding: 0 15px !important;
+    }
+    #portfolio .portfolio-box,
+    #team .team-box,
+    #our-pricing .pricing-table,
+    .funfacts-section .funfacts-box,
+    .footer-section .widget {
+        margin-bottom: 30px;
+    }
+    #portfolio .portfolio-box img,#team .team-box img {
+        width: 100%;
+    }
+    .tricore-header .navbar-light .navbar-toggler {
+        border: 1px solid $primary-color;
+        padding: .6rem .75rem !important;
+    }
+    .tricore-header .navbar-light .navbar-toggler:focus {
+        outline: none;
+    }
+    .tricore-header .navbar-light .navbar-toggler i.fa-bars {
+        color: $primary-color;
+    }
+    .home-section .primary-badge {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .home-section .h1 {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .home-section p {
+        font-size: 14px;
+    }
+}
+@media (max-width:991px) and (min-width:768px) {
+    
+    .home-section .owl-item {
+        padding: 0 100px;
+    }
+    .home-section .owl-carousel button.owl-prev {
+        left: -50px;
+    }
+    .home-section .owl-carousel button.owl-next {
+        right: -50px;
+    }
+}
+@media (max-width:767px) {
+    .tricore-topbar {
+        display: none;
+    }
+    .home-section .owl-item {
+        padding: 0 50px;
+    }
+    .copyrights p {
+        font-size: 12px;
+    }
+}
+@media (max-width:575px) {
+    .home-section .primary-badge {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .home-section .h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .home-section p {
+        font-size: 12px;
+    }
+    .home-section p br {
+        display: none;
+    }
+    .home-section .owl-item {
+        padding: 0 30px;
+    }
+}
+@media (max-width:332px) {
+    .home-section .btn-tri-outline {
+        margin-bottom: 10px;
+    }
+}

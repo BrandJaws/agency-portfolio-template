@@ -1,0 +1,11 @@
+/*
+ Title:   Template Name - Lib file
+ Version: 1.0.0
+ Author:  https://brandjaws.com/
+ Note:    This is Lib CSS file. All CSS file declare here.
+ */
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../../node_modules/@fortawesome/fontawesome-free/css/all.min.css);
+@import url(../../node_modules/jarallax/dist/jarallax.css);
+@import url(../../node_modules/animate.css/animate.min.css);
+@import url(../../node_modules/owl.carousel/dist/assets/owl.carousel.css);
