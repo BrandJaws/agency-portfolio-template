@@ -274,6 +274,7 @@ ul {
   }
   img {
     transition: 1s ease-in-out;
+    width: 100%;
   }
 }
 
@@ -283,7 +284,6 @@ ul {
 }
 .services-box {
   padding: 40px 20px;
-  margin-bottom: 30px;
   @include box-style;
   h4 {
     margin-bottom: 15px;
@@ -398,7 +398,7 @@ ul {
 }
 //Progress bar
 .primary-progress {
-  margin-bottom: 40px;
+  margin-top: 40px;
   .progress {
     height: 7px;
     background-color: #e0e0e0;

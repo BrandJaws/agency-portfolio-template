@@ -362,17 +362,17 @@ ul {
 /* line 275, ../sass/app.scss */
 .portfolio-box img {
   transition: 1s ease-in-out;
+  width: 100%;
 }
 
-/* line 281, ../sass/app.scss */
+/* line 282, ../sass/app.scss */
 .bg-grey {
   background-color: #f6f6f6;
 }
 
-/* line 284, ../sass/app.scss */
+/* line 285, ../sass/app.scss */
 .services-box {
   padding: 40px 20px;
-  margin-bottom: 30px;
   box-shadow: 0 0 1px 1px #DDD;
   background: #FFF;
   border-radius: 10px;
@@ -504,7 +504,7 @@ ul {
 
 /* line 400, ../sass/app.scss */
 .primary-progress {
-  margin-bottom: 40px;
+  margin-top: 40px;
 }
 /* line 402, ../sass/app.scss */
 .primary-progress .progress {
@@ -926,7 +926,7 @@ footer .social-icon li a {
   #our-pricing .pricing-table,
   .funfacts-section .funfacts-box,
   .footer-section .widget {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   /* line 26, ../sass/_screen.scss */
@@ -1026,10 +1026,18 @@ footer .social-icon li a {
   .home-section .owl-item {
     padding: 0 30px;
   }
-}
-@media (max-width: 332px) {
-  /* line 94, ../sass/_screen.scss */
+
+  /* line 92, ../sass/_screen.scss */
   .home-section .btn-tri-outline {
-    margin-bottom: 10px;
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* line 96, ../sass/_screen.scss */
+  .home-section .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
